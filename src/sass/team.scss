@@ -1,0 +1,105 @@
+.team {
+  padding: 114px 0;
+  @media (max-width: 920px) {
+   padding: 80px 0;
+ }
+ @media (max-width: 660px) {
+   padding: 60px 0;
+ }
+}
+.team-card {
+  width: 260px;
+  margin: 0 15px;
+  @media (max-width: 1159px) {
+   width: 360px;
+  }
+  @media (max-width: 920px) {
+   width: 280px;
+  }
+  @media (max-width: 660px) {
+   width: 230px;
+  }
+  @media (max-width: 519px) {
+   width: 330px;
+  }
+  @media (max-width: 359px) {
+   width: 290px;
+  }
+  &:nth-child(-n+2) {
+     @media (max-width: 1159px) {
+      margin-bottom: 60px;
+     }
+     @media (max-width: 660px) {
+      margin-bottom: 40px;
+     }
+  }
+  &:nth-child(3) {
+     @media (max-width: 519px) {
+      margin-bottom: 40px;
+     }
+  }
+	   &__img {
+      width: 100%;
+      height: 260px;
+       @media (max-width: 1159px) {
+         width: 280px;
+         height: 280px;
+         margin: 0 auto;
+        }
+        @media (max-width: 920px) {
+         width: 100%;
+        }
+        @media (max-width: 660px) {
+         height: 230px;
+        }
+        @media (max-width: 519px) {
+         width: 200px;
+         height: 200px;
+        }
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+      }
+		}
+		&__person-name {
+      @include person-card_title;
+      margin-top: 30px;
+      @media (max-width: 920px) {
+         margin-top: 20px;
+       }
+       @media (max-width: 660px) {
+         margin-top: 10px;
+       }
+      @media (max-width: 519px) {
+         text-align: center;
+        }
+		}
+		&__person-position {
+      @include person-card_subtitle;
+      margin-top: 5.29px;
+      @media (max-width: 920px) {
+         margin-top: 4px;
+       }
+       @media (max-width: 660px) {
+         margin-top: 2px;
+       }
+      @media (max-width: 519px) {
+         text-align: center;
+        }
+		}
+		&__text {
+      @include card_text;
+      margin-top: 17.86px;
+      @media (max-width: 920px) {
+         margin-top: 12px;
+       }
+       @media (max-width: 660px) {
+         margin-top: 8px;
+       }
+      @media (max-width: 519px) {
+         text-align: center;
+        }
+		}
+}

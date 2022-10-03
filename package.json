@@ -1,0 +1,25 @@
+{
+  "name": "activebox-landing",
+  "version": "1.0.0",
+  "description": "",
+  "source": "src/index.html",
+  "browserslist": "> 0.5%, last 3 versions, not dead",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yauhiry/FE38-ActiveBox-Landing-YHirynski.git"
+  },
+  "author": "Yauheni Hirynski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yauhiry/FE38-ActiveBox-Landing-YHirynski/issues"
+  },
+  "homepage": "https://github.com/Yauhiry/FE38-ActiveBox-Landing-YHirynski#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.7.0",
+    "parcel": "^2.7.0"
+  }
+}

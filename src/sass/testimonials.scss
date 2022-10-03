@@ -1,0 +1,115 @@
+  .swiper-wrapper {
+  width: 100%;
+  height: calc(32.4288vw + 45px);
+  @media (max-width: 920px) {
+    height: calc(32.4288vw + 37px);
+  }
+  @media (max-width: 839px) {
+    height: calc(214px + 66.126vw + 30px);
+  }
+  @media (max-width: 660px) {
+    height: calc(159px + 66.126vw + 30px);
+  }
+}
+.swiper-slide {
+  &__content {
+    display: flex;
+    background-color: $violet;
+    @media (max-width: 839px) {
+      flex-direction: column;
+     }
+    
+    &_blue {
+      background-color: $deep_blue;
+    }
+  }
+		&__left {
+      width: 49vw;
+		}
+    &__img {
+      width: 100%;
+      height: 32.4288vw;
+       @media (max-width: 839px) {
+        width: 100vw;
+        height: 66.126vw;
+       }
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+      }
+		}
+		&__right {
+      width: 51vw;
+      display: block;
+      display: flex;
+      align-items: center;
+      @media (max-width: 839px) {
+        padding: 10px 0 20px;
+        width: 100%;
+      }
+    }
+    &__description {
+      margin: 0 auto;
+      width: 471px;
+      @media (max-width: 1085px) {
+        width: 410px;
+      }   
+      @media (max-width: 920px) {
+        width: 360px;
+      }   
+      @media (max-width: 660px) {
+        width: 235px;
+      }   
+
+    } 
+		&__title {
+      font-family: 'Cardo';
+      font-style: italic;
+      font-weight: 400;
+      font-size: 2.25rem;
+      text-transform: capitalize;
+      color: $white;
+      @media (max-width: 1085px) {
+        font-size: 2rem;
+      }   
+      @media (max-width: 660px) {
+        font-size: 1.5rem;
+      }   
+		}
+		&__text {
+      font-family: 'Raleway';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 0.8125rem;
+      text-transform: uppercase;
+      color: $white;
+      margin-top: 18px;
+		}
+}
+.swiper-pagination-bullet {
+  width: 14px;
+  height: 14px;
+  line-height: 14px;
+  background-color: white;
+  border: 1px solid #7E5D6F;
+  opacity: 1;
+  @media (max-width: 920px) {
+    width: 12px;
+    height: 12px;
+  }
+  @media (max-width: 839px) {
+    width: 10px;
+    height: 10px;
+  }
+}
+.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+  margin: 0 var(--swiper-pagination-bullet-horizontal-gap,12.5px);
+}
+.swiper-pagination-bullet-active {
+  background-color: #7E5D6F;
+}
+.swiper-pagination-bullets.swiper-pagination-horizontal{
+  bottom: 0;
+}

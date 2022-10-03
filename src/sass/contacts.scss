@@ -1,0 +1,56 @@
+.contacts {
+  padding: 71.14px 0 71px;
+  background-color: $deep_blue;
+  @media (max-width: 1049px) {
+    padding: 50px 0 40px;
+  }
+  &__item {
+    width: 350px;
+    @media (max-width: 920px) {
+      width: 310px;
+    }
+    @media (max-width: 660px) {
+      width: 260px;
+    }
+    &_location {
+      @media (max-width: 1049px) {
+        order: 1;
+      }
+    }
+    &_social {
+      @media (max-width: 1049px) {
+        order: 3;
+        margin-top: 30px;
+      }
+      @media (max-width: 519px) {
+        order: 2;
+        margin-top: 30px;
+      }
+    }
+    &_about {
+      @media (max-width: 1049px) {
+        order: 2;
+      }
+      @media (max-width: 519px) {
+        order: 3;
+        margin-top: 30px;
+      }
+    }
+  }
+}
+.contacts-title {
+  @include text;
+  color: $white;
+}
+.contacts-text {
+  @include card_text;
+  text-align: center;
+  margin-top: 29px;
+  color: $white;
+  @media (max-width: 920px) {
+    margin-top: 22;
+  }
+  @media (max-width: 660px) {
+    margin-top: 18;
+  }
+}

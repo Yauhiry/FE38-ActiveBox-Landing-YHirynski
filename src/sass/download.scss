@@ -1,0 +1,24 @@
+.download {
+  padding: 114px 0;
+  @media (max-width: 920px) {
+    padding: 80px 0;
+  }
+  @media (max-width: 660px) {
+    padding: 60px 0;
+  }
+}
+.download-title {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.875rem;
+  text-transform: capitalize;
+  text-align: center;
+}
+.download-description {
+  @include text;
+  margin-top: 5.29px;
+}
+.download-button {
+  margin: 47.71px auto 0;
+}

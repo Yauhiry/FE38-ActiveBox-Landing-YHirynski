@@ -1,0 +1,27 @@
+.footer {
+  padding: 24px 0;
+  background-color: $dark_blue;
+  @media (max-width: 920px) {
+    padding: 20px 0;
+  }
+  @media (max-width: 660px) {
+    padding: 16px 0;
+  }
+}
+.copyright {
+  width: 350px;
+  @media (max-width: 920px) {
+    width: 300px;
+  }
+  @media (max-width: 660px) {
+    width: 250px;
+  }
+  margin: auto;
+  p {
+    @include card_text;
+    text-align: center;
+    span{
+      color: $white;
+    }
+  }
+}

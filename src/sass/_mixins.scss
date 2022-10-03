@@ -1,0 +1,93 @@
+@mixin navigation_text {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.8125rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: $white;
+}
+@mixin main_title {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 4rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: $white;
+}
+@mixin card_title {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 1.5rem;
+  text-align: center;
+  color: $dark_grey; 
+}
+@mixin card_text {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.0625rem;
+  color: $deep_grey;
+}
+@mixin picture_title {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 1.5rem;
+  color: $white;
+  text-transform: uppercase;
+  margin-bottom: 36.57px;
+}
+@mixin picture_description {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.125rem;
+  color: $white;
+}
+@mixin person-card_title {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  color: $dark_grey;
+}
+@mixin person-card_subtitle {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.125rem;
+  text-transform: uppercase;
+  color: $red;
+}
+@mixin social {
+  font-size: 18px;
+  color: $light_grey;
+  line-height: 39px;
+} 
+@mixin button {
+  width: 369px;
+  height: 77.58px;
+  background-color: $red;
+  border: none;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  color: $white;
+  display: block;
+  cursor: pointer;
+}
+@mixin text {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.125rem;
+  text-align: center;
+  text-transform: uppercase;
+}
